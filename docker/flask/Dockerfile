@@ -1,4 +1,4 @@
-FROM alpine:3.13  as base
+FROM alpine:3.13 AS base
 
 RUN apk add --update --no-cache python3 \
 	&& ln -sf python3 /usr/bin/python

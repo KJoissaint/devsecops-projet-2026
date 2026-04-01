@@ -10,12 +10,17 @@ The Main Dependencies are:
 
 [Minikube](https://minikube.sigs.k8s.io/docs/start/)
 
-[Docker-Compose](https://docs.docker.com/compose/install/)
+[Docker Compose](https://docs.docker.com/compose/install/) (comes with Docker Desktop)
 
 # Docker Compose
 
-To run this simple example with docker compose you just need to have Docker open, and run `$ docker-compose up` in the main directory.
-After that you will be able to see the api working!
+To run this simple example with Docker Compose, ensure Docker is running, then execute:
+
+```bash
+docker compose up --build
+```
+
+This will build the Flask API container and start both the Flask app and Nginx proxy. The API will be accessible at `http://localhost`.
 
 # Kubernetes
 
