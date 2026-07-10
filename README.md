@@ -36,7 +36,7 @@ To run this example with Kubernetes make sure you have Docker running, then star
 
 after starting the API you can do CTRL+C to exit and then do `$ minikube dashboard` to see the stats and number of pods of our kubernetes deployment
 
-### This proeject was enriched with some DevSecOps elements such as :
+## This proeject was enriched with some DevSecOps elements such as :
   Trivy
   Grype
   Github Workflows
